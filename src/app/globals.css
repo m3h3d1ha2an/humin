@@ -40,6 +40,6 @@
    Note: font is handled by `next/font` via the Inter className,
    so we only apply colors here. */
 body {
-  background: var(--background);  /* Uses light or dark background dynamically */
-  color: var(--foreground);       /* Uses light or dark text color dynamically */
+  background: var(--background); /* Uses light or dark background dynamically */
+  color: var(--foreground); /* Uses light or dark text color dynamically */
 }
