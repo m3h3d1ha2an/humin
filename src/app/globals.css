@@ -1,17 +1,34 @@
+/* Import Tailwind's base styles, components, and utilities.
+   In Tailwind v4, a single @import "tailwindcss"; handles all layers automatically. */
 @import "tailwindcss";
 
+/* Import HeroUI’s default component styles.
+   These must come after Tailwind so they can override utility defaults if needed. */
+@import "@heroui/styles";
+
+/* Define base color variables at the root level of the document.
+   These can be reused in themes and updated dynamically (like for dark mode). */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* The @theme inline block lets you define custom design tokens (variables)
+   that Tailwind will interpret as theme values.
+   These act as bridges between your CSS variables and Tailwind utilities. */
 @theme inline {
+  /* Map your custom Inter font variable (from next/font/google)
+     to Tailwind’s built-in `font-sans` utility class. */
+  --font-sans: var(--font-inter);
+
+  /* Map color tokens for Tailwind’s background and text utilities.
+     For example, `bg-background` or `text-foreground` will now use these vars. */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
+/* Detects if the user’s system prefers dark mode.
+   If so, this overrides the base variables defined in :root. */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +36,10 @@
   }
 }
 
+/* Base global styling for the <body> element.
+   Note: font is handled by `next/font` via the Inter className,
+   so we only apply colors here. */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);  /* Uses light or dark background dynamically */
+  color: var(--foreground);       /* Uses light or dark text color dynamically */
 }

@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Humin - Smart Employee Data & Reporting
 
-## Getting Started
+[![Deploy with Vercel](https://vercel.com/button)](https://humin.vercel.app) <!-- Replace with your actual Vercel deployment link -->
 
-First, run the development server:
+**Humin** is a full-stack portfolio project designed to showcase modern web development expertise. It takes the form of a SaaS application for HR management, with a long-term vision to become a feature-rich, market-ready product.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The primary goal of this project is to serve as a living resume, demonstrating proficiency in building scalable, high-quality applications using the latest industry-standard technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Project Status
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Current Phase: 1 - Foundation & Marketing Showcase**
 
-## Learn More
+The project is currently focused on building a polished, public-facing marketing website. This initial phase is designed to create a strong first impression and communicate the project's vision.
 
-To learn more about Next.js, take a look at the following resources:
+For a detailed development plan, see the [**Project Roadmap](./ROADMAP.md)**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+A live version of the application is deployed on Vercel.
 
-## Deploy on Vercel
+**URL: [https://humin.vercel.app](https://humin.vercel.app)** <!-- Replace with your actual Vercel deployment link -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is committed to using the **latest versions** of the following technologies to demonstrate proficiency with the modern web ecosystem:
+
+-   **Framework**: Next.js 16 (App Router)
+-   **UI Library**: React 19
+-   **Language**: TypeScript
+-   **Styling**: Tailwind CSS 4
+-   **Component Library**: HeroUI
+-   **Linting/Formatting**: Biome
+-   **Deployment**: Vercel
+
+## ⚙️ Getting Started
+
+Follow these instructions to get a local copy up and running.
+
+### Prerequisites
+
+-   [Bun](https://bun.sh/) (or your preferred package manager: npm, yarn, pnpm)
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/your-username/humin.git
+    cd humin
+    ```
+
+2.  **Install dependencies:**
+    ```sh
+    bun install
+    ```
+
+3.  **Run the development server:**
+    ```sh
+    bun dev
+    ```
+
+The application will be available at `http://localhost:3000`.
+
+## 🚀 Deployment
+
+This project is set up for continuous deployment from the `main` branch to [Vercel](https://vercel.com/).
