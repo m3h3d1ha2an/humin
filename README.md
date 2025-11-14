@@ -37,7 +37,7 @@ Humin is built with a carefully selected stack of modern technologies to ensure 
 | **UI Library**  | [React 19](https://react.dev/) for building a dynamic user interface.   |
 | **Language**    | [TypeScript](https://www.typescriptlang.org/) for type safety and robustness. |
 | **Styling**     | [Tailwind CSS 4](https://tailwindcss.com/) for a utility-first workflow. |
-| **Components**  | [HeroUI](https://heroui.io/) for a set of pre-built, modern components. |
+| **Components**  | [HeroUI](https://v3.heroui.com/) for a set of pre-built, modern components. |
 | **Tooling**     | [Biome](https://biomejs.dev/) for linting and formatting.              |
 | **Deployment**  | [Vercel](https://vercel.com/) for continuous deployment and hosting.    |
 
