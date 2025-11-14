@@ -10,9 +10,9 @@ const manifest = (): MetadataRoute.Manifest => ({
   background_color: "#ffffff",
   theme_color: "#2563eb",
   icons: [
-    { src: `${siteConfig.url}/icon-512.png`, sizes: "512x512", type: "image/png" },
-    { src: `${siteConfig.url}/icon-192.png`, sizes: "192x192", type: "image/png" },
-    { src: `${siteConfig.url}/favicon.ico`, sizes: "any", type: "image/x-icon" },
+    { src: "/icon.png", sizes: "512x512", type: "image/png" },
+    { src: "/apple-icon.png", sizes: "192x192", type: "image/png" },
+    { src: "/favicon.ico", sizes: "any", type: "image/x-icon" },
   ],
 });
 
