@@ -4,7 +4,7 @@ This document outlines the development plan for Humin. The primary goal is to bu
 
 ## Current State
 
-The project is in its initial phase: a boilerplate Next.js application has been set up with the core technology stack. There is a basic home page and foundational configuration is in place. The immediate goal is to build out the public-facing marketing site to make the project presentable.
+The project foundation is firmly established. The core Next.js application is configured with the full technology stack (TypeScript, Tailwind CSS, Biome). The project is version-controlled with Git and published on GitHub. Continuous deployment is active through Vercel, and the live marketing site is available. Key documentation, including a comprehensive `README.md`, this `ROADMAP.md`, and a `LICENSE`, is in place. The immediate goal remains to build out the remaining public-facing marketing pages.
 
 ---
 
@@ -12,12 +12,13 @@ The project is in its initial phase: a boilerplate Next.js application has been 
 
 **Goal:** Create a polished, professional marketing website that impresses potential employers and clearly communicates the project's vision and value proposition.
 
--   [ ] **1. Enhance Project Documentation:**
+-   [x] **1. Enhance Project Documentation:**
     -   [x] Create this `ROADMAP.md`.
-    -   [ ] Write a comprehensive, showcase-worthy `README.md`.
+    -   [x] Write a comprehensive, showcase-worthy `README.md`.
+    -   [x] Add a `LICENSE` file.
 
 -   [ ] **2. Design & Build Marketing Pages:**
-    -   [ ] **Landing Page:** A visually appealing homepage that serves as the main entry point.
+    -   [ ] **Landing Page:** A visually appealing homepage that serves as the main entry point. (Partially complete)
     -   [ ] **Features Page:** A page detailing the planned (even if not yet implemented) features of the SaaS platform.
     -   [ ] **Pricing Page:** A simple, placeholder pricing page to complete the SaaS look and feel.
     -   [ ] **About Page:** A page to talk about the project's mission.
@@ -27,9 +28,9 @@ The project is in its initial phase: a boilerplate Next.js application has been 
     -   [ ] Implement subtle animations and transitions to enhance the user experience.
     -   [ ] Select a professional color scheme and typography.
 
--   [ ] **4. Deployment:**
-    -   [ ] Set up a new project on Vercel.
-    -   [ ] Configure the GitHub repository for automatic deployments on every push to the `main` branch.
+-   [x] **4. Deployment:**
+    -   [x] Set up a new project on Vercel.
+    -   [x] Configure the GitHub repository for automatic deployments on every push to the `main` branch.
 
 ---
 
